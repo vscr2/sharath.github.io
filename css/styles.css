@@ -2,19 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background: #333;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
@@ -24,28 +23,37 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
-.hero {
+.hero-section {
+    background: #f4f4f4;
+    padding: 50px 0;
     text-align: center;
-    margin: 50px 0;
 }
 
-.hero img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+.hero-section h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
-.portfolio, .resume, .contact {
-    max-width: 800px;
-    margin: 0 auto;
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+main {
     padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
